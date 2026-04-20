@@ -1,0 +1,40 @@
+/* style.css - Samarqand 6-Son Texnikumi */
+
+.hero-section {
+    background: #0f172a;
+    position: relative;
+    min-height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.vanta-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.news-tab {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.news-tab.active,
+.news-tab:hover {
+    background: #2563eb;
+    color: #fff;
+}
+
+/* Qo'shimcha stillar */
+html {
+    scroll-behavior: smooth;
+}
